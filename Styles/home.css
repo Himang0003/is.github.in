@@ -240,46 +240,17 @@ a.home-nav-right-links:hover::before {
   
 }
 
-/* .img-carousel{
-  animation: cf4FadeInOut 2s infinite;
-  -webkit-animation-name: cf4FadeInOut;
-  -webkit-animation-duration: 1.4s;
-  animation-name: cf4FadeInOut;
-  animation-duration: 1.4s;
-} */
 #home5-slider .slick-slide img {
   width: 10%;
 }
 
-/* .img_fade {
-  position:absolute;
-  left: 753px;
-  width: 850px;
-  height: 812px;
 
-} */
-
-/* .img_fade_div {
-  left: 40px;
-  height: 60px;
-  background-color: #e07b00;
-} */
-
-
-
-@media screen and (max-width: 766px) {
+@media all and (max-width: 766px) 
+{
 
   .home-third-right {
     margin-top: 100px;
   }
-  /* .img_fade {
-    position: absolute;
-    left: -255px;
-    height: 70vh;
-    margin-top: 60px;
-    width: 1000px;
-  } */
-
 .home-first-left-heading{
   text-align: center;
 }
@@ -377,32 +348,9 @@ a.home-nav-right-links:hover::before {
   padding: 15px 25px;
   border: none;
 }
-
-/* @media screen and (max-width:400px) {
-  .img_fade {
-    position: absolute;
-    left: -225px;
-    height: 60vh;
-    margin-top: 60px;
-    width: 840px;
-  }
-
-.home-first-left-heading{
-  margin-top: 430px;
-  text-align: center;
 }
-.home-first-left-text{
-  text-align: center;
-  margin-left: 20px;
-  width: 100%;
-}
-.home-first-left-hr{
-  margin-left:8% ;
-  width: 88%;
-}
-}*/
 
-@media all and (max-width:400px) 
+@media all and (max-width:692px) and (min-width:491px)
 {
  .home-first-left{
 color: #000;
@@ -470,8 +418,8 @@ margin-top: 0%;
 }
 
 #change1 p{
-  
-  font-size: 17px;
+  text-align: center;
+  font-size: 4.5vh;
  margin-left: 5%;
  font-weight: bold;
 }
@@ -488,6 +436,188 @@ margin-top: 0%;
 
 }
 
+
+
+
+
+@media all and (max-width:490px) and (min-width:340px)
+{
+ .home-first-left{
+color: #000;
+margin-top: 0%;
+ }
+.home-first-left-heading{
+  margin-top: 430px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 1px;
+}
+.home-first-left-text{
+  text-align: center;
+  margin-left: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+.home-first-left-hr{
+  margin-left:8% ;
+  width: 88%;
+  overflow: hidden;
+}
+
+.home-first-left button {
+  background-color: #534b42;
+  color: rgb(248, 218, 134);
+  margin-left: 30%;
+  margin-top: 10%;
+  font-family: mainlux;
+  font-size: 17px;
+  padding: 15px 25px;
+  border: none;
+}
+.home-second{
+  margin-top: 20%;
+}
+  
+.home-first-left-heading {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: mainlux-semibold;
+  font-size: 0%;
+  color: #3d352e;
+  line-height: 165%;
+
+}
+#responsive_headline {
+  font-size: 30px;
+  margin-left: 5%;
+  line-height: normal;
+}
+.footer-text{
+  margin-left: 10%;
+  color: #706458;
+
+}
+
+  
+#change p{
+  
+  font-size: 25px;
+  font-weight: bold;
+ 
+}
+
+#change1 p{
+text-align: center;
+  font-size: 2.5vh;
+ margin-left: 5%;
+ font-weight: bold;
+}
+
+
+.home-third-right-text {
+  margin-top :3.5%;
+  margin-left: 5%;
+  font-family: mainlux-semibold;
+  font-size: calc(2rem);
+  color: #706458;
+}
+
+
+}
+
+
+
+
+
+
+@media all and (max-width: 1072px) and (min-width:693px) 
+{
+
+
+  
+  #change1 p{
+    font-size: 6.5vh;
+    font-weight: bold;
+  } 
+  
+  }
 /* 
-414
-360 */
+@media all only (max-width:1072px)and(min-width:767px) 
+{
+ #change1 p{
+    font-size: 4.5vh;
+    
+   font-weight: bold;
+  } 
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* @media screen and (max-width:400px) {
+  .img_fade {
+    position: absolute;
+    left: -225px;
+    height: 60vh;
+    margin-top: 60px;
+    width: 840px;
+  }
+
+.home-first-left-heading{
+  margin-top: 430px;
+  text-align: center;
+}
+.home-first-left-text{
+  text-align: center;
+  margin-left: 20px;
+  width: 100%;
+}
+.home-first-left-hr{
+  margin-left:8% ;
+  width: 88%;
+}
+}*/
+
+
+  /* .img-carousel{
+    animation: cf4FadeInOut 2s infinite;
+    -webkit-animation-name: cf4FadeInOut;
+    -webkit-animation-duration: 1.4s;
+    animation-name: cf4FadeInOut;
+    animation-duration: 1.4s;
+  } */
+  /* .img_fade {
+    position:absolute;
+    left: 753px;
+    width: 850px;
+    height: 812px;
+  
+  } */
+  
+  /* .img_fade_div {
+    left: 40px;
+    height: 60px;
+    background-color: #e07b00;
+  } */
+  
+  
+  /* .img_fade {
+    position: absolute;
+    left: -255px;
+    height: 70vh;
+    margin-top: 60px;
+    width: 1000px;
+  } */

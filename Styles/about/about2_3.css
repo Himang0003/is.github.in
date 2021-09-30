@@ -109,14 +109,7 @@
   .about3-image {
     width: 100vw;
   }
-}
-
-
-
-
-@media all and (max-width:400px) 
-{
-
+  
 .about2-head { 
   margin-top: 10%;
   margin-left: 10px;
@@ -127,3 +120,6 @@
   /* font-weight: 600; */
 }
 }
+
+
+
